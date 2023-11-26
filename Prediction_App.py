@@ -82,7 +82,7 @@ st.write("\n\n")
 
 with st.sidebar:
     st.subheader('📩 **Contact:** ')
-st.sidebar.markdown("[![Linkedin]('https://content.linkedin.com/content/dam/me/business/en-us/amp/brand-site/v2/bg/LI-Bug.svg.original.svg')]('https://www.linkedin.com/in/sara-alnajim-24ab24177')")
-st.sidebar.markdown("[![GitHub]('https://img.icons8.com/material-outlined/48/000000/github.png')]('https://github.com/saraalnajim')")
+st.sidebar.write("**LinkedIn:** [link](https://www.linkedin.com/in/sara-alnajim-24ab24177)")
+st.sidebar.write("**GitHub:** [link](https://github.com/saraalnajim)")
 
 st.write("\n\n")
